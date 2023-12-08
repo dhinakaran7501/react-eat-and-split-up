@@ -1,0 +1,53 @@
+.moneySplitUp {
+  border: 1px solid #e9d6bd;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #e9d6bd;
+  position: absolute;
+  top: 17px;
+  width: 82%;
+  left: 104%;
+  height: 46%;
+  display: none;
+}
+.heading {
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+.moneySplitUp .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.moneySplitUp label {
+  font-weight: bolder;
+}
+.moneySplitUp input,
+.moneySplitUp select {
+  height: 32px;
+  padding: 0 8px;
+  border: 1px solid #ffe8cc;
+  border-radius: 5px;
+  outline-color: #f2ab53;
+  font-size: 14px;
+}
+
+.moneySplitUp select {
+  text-align: center;
+  width: 46.5%;
+}
+.moneySplitUp button {
+  padding: 0.53rem 1.2rem;
+  background-color: #ff922b;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  width: 46.5%;
+}
+.moneySplitUp .addbtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

@@ -1,0 +1,46 @@
+.friend .member-List {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 10px 20px;
+  margin: 6px 0px;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: 77%;
+}
+.friend .member-List:hover {
+  background-color: #e9d6bd;
+  transition: 0.5s;
+}
+.name-money-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: auto;
+  font-size: 14px;
+}
+.friend img {
+  border-radius: 50%;
+}
+.select-btn-section button {
+  padding: 0.5rem 1.2rem;
+  background-color: #ff922b;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.name {
+  text-transform: capitalize;
+}
+.redbalance {
+  color: red;
+}
+.balance {
+  color: green;
+}
+.nrmlNames {
+  color: black;
+}

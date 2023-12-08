@@ -1,0 +1,40 @@
+.addnewfrnd {
+  border: 1px solid transparent;
+  margin: 10px 0px;
+  width: 81.3%;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px auto;
+  background-color: #fff4e6;
+}
+.addnewfrnd .name-input,
+.avatar-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+.name-input > input,
+.avatar-input > input {
+  width: 50%;
+  height: 35px;
+  padding: 0 8px;
+  border: 1px solid #ffe8cc;
+  border-radius: 5px;
+  outline-color: #f2ab53;
+}
+.addnewfrnd .btn-add {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-add button {
+  padding: 0.5rem 1.2rem;
+  background-color: #ff922b;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  width: 54%;
+}

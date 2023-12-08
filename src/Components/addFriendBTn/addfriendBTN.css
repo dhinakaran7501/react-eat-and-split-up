@@ -1,0 +1,14 @@
+.add-friend-btn {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 85%;
+}
+.add-friend-btn button {
+  padding: 0.5rem 1.2rem;
+  background-color: #ff922b;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
